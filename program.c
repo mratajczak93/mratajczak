@@ -13,5 +13,19 @@ int main() {
 printf ("%f\n",wynik);
 printf ("%d\n",wynik2);
 printf ("%d\n",wynik3);
-return 0;
+if ((a>b) && (b>c)) {
+  printf("%d, %d, %d\n",a,b,c );
+} else if ((c<b) && (b<a)) {
+  printf("%d, %d, %d\n",c,b,a );
+} else if ((a<c) && (c<b)) {
+  printf("%d, %d, %d\n",a,c,b );
+} else if ((b<c) && (c<a)) {
+  printf("%d, %d, %d\n",b,c,a );
+} else if ((b<a) && (a<c)) {
+  printf("%d, %d, %d\n",b,a,c );
+} else if ((c<a) && (a<b)) {
+  printf("%d, %d, %d\n",c,a,b );
+  
+  }
+    return 0;
 }
