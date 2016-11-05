@@ -1,3 +1,4 @@
 # mratajczak
-test
-test
+
+Środowisko programisty
+inf NS 2016 UG
