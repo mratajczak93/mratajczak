@@ -25,7 +25,7 @@ if ((a>b) && (b>c)) {
   printf("%d, %d, %d\n",b,a,c );
 } else if ((c<a) && (a<b)) {
   printf("%d, %d, %d\n",c,a,b );
-  
+
   }
     return 0;
 }
